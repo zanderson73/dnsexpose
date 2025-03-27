@@ -43,7 +43,7 @@ python3 dnsexpose.py example.com
 
 ## Sample Output
 ```
-[*] DNS Enumeration Summary:
+[[*] DNS Enumeration Summary:
 A Records:
   1  192.0.2.1
 
@@ -59,6 +59,9 @@ TXT Records:
 [*] AXFR Results:
 NS: ns1.example.com
   Zone transfer failed or not allowed
+
+[*] DNSSEC Support:
+  ✘ DNSSEC is not enabled for example.com
 ```
 
 JSON output is saved to `dnsexpose_<domain>.json` for reporting or scripting.
@@ -88,3 +91,4 @@ Operational Red Teamer / Red Team Developer / Security Researcher
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
